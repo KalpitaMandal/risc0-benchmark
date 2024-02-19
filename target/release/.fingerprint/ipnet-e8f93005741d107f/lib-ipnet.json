@@ -1,0 +1,1 @@
+{"rustc":18004373081649162931,"features":"[\"default\", \"std\"]","declared_features":"","target":16422917379160699365,"profile":12863031699229684808,"path":9115521913092953875,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/ipnet-e8f93005741d107f/dep-lib-ipnet"}}],"rustflags":[],"metadata":18359272829728453201,"config":2202906307356721367,"compile_kind":0}

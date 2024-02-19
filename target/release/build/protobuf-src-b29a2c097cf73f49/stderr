@@ -1,0 +1,21 @@
+In file included from /usr/include/string.h:535,
+                 from /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/stubs/port.h:39,
+                 from /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/stubs/common.h:48,
+                 from /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/message_lite.h:46,
+                 from /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/message_lite.cc:36:
+In function 'void* memcpy(void*, const void*, size_t)',
+    inlined from 'uint8_t* google::protobuf::io::EpsCopyOutputStream::WriteRaw(const void*, int, uint8_t*)' at /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/io/coded_stream.h:684:16,
+    inlined from 'virtual uint8_t* google::protobuf::internal::ImplicitWeakMessage::_InternalSerialize(uint8_t*, google::protobuf::io::EpsCopyOutputStream*) const' at /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/implicit_weak_message.h:103:28,
+    inlined from 'bool google::protobuf::MessageLite::SerializePartialToZeroCopyStream(google::protobuf::io::ZeroCopyOutputStream*) const' at /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/message_lite.cc:411:30:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:29:33: warning: 'void* __builtin___memcpy_chk(void*, const void*, long unsigned int, long unsigned int)' specified size between 18446744071562067968 and 18446744073709551615 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   29 |   return __builtin___memcpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   30 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/generated_message_tctable_lite.cc:36:
+/home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/generated_message_tctable_impl.h: In function 'void google::protobuf::internal::AlignFail(uintptr_t) [with long unsigned int align = 4]':
+/home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/generated_message_tctable_impl.h:256:1: warning: 'noreturn' function does return
+  256 | }
+      | ^
+/home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/generated_message_tctable_impl.h: In function 'void google::protobuf::internal::AlignFail(uintptr_t) [with long unsigned int align = 8]':
+/home/ubuntu/.cargo/registry/src/index.crates.io-6f17d22bba15001f/protobuf-src-1.1.0+21.5/protobuf/src/google/protobuf/generated_message_tctable_impl.h:256:1: warning: 'noreturn' function does return

@@ -11,8 +11,8 @@ use smartcore::{
 };
 use std::time::Instant;
 
-const MODEL_SERIALIZED: &[u8] = include_bytes!("../../res/ml-model/random_forest_model_bytes.bin");
-const DATA_SERIALIZED: &[u8] = include_bytes!("../../res/input-data/random_forest_data_bytes.bin");
+const MODEL_SERIALIZED: &[u8] = include_bytes!("../../res/ml-model/linear_regression_model_bytes.bin");
+const DATA_SERIALIZED: &[u8] = include_bytes!("../../res/input-data/linear_regression_data_bytes.bin");
 
 fn main() {
     let result = predict();
